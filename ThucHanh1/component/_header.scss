@@ -1,23 +1,23 @@
 .header{
     img{
-        width: 100vw;
-        height: 25.14vw;
+        width: 1440px;
+        height: 362px;
     }
     
     background-image: url(tropichouse.jpg);
-    h2{
+    &__title{
         position: absolute;
-        width: 100vw;
-        height: 18.13vw;
+        width: 1440px;
+        height: 261px;
 
-        font-family: 'Inter';
+        font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 96px;
         line-height: 116px;
         display: flex;
         align-items: center;
-        text-align: center;
+        justify-content: center;
         letter-spacing: 0.15em;
 
         color: #FFFFFF;

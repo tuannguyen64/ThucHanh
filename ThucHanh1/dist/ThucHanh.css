@@ -1,59 +1,41 @@
-html {
+* {
   margin: 0px;
   padding: 0px;
-}
-
-h2 {
-  position: absolute;
-  width: 100vw;
-  height: 18.13vw;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 800;
-  font-size: 96px;
-  line-height: 116px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.15em;
-  color: #FFFFFF;
+  width: 1440px;
 }
 
 .header {
   background-image: url(tropichouse.jpg);
 }
 .header img {
-  width: 100vw;
-  height: 25.14vw;
+  width: 1440px;
+  height: 362px;
 }
-.header h2 {
+.header__title {
   position: absolute;
-  width: 100vw;
-  height: 18.13vw;
-  font-family: "Inter";
+  width: 1440px;
+  height: 261px;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 96px;
   line-height: 116px;
   display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: center;
   letter-spacing: 0.15em;
   color: #FFFFFF;
 }
 
 .section__nav--space1 {
-  width: 8.33%;
-  height: 50px;
-  float: left;
-}
-.section__nav--space2 {
-  width: 55.67%;
+  width: 120px;
   height: 50px;
   float: left;
 }
 .section__nav--button {
-  width: 12%;
+  width: 172px;
   height: 50px;
   float: left;
   font-family: "Inter";
@@ -65,4 +47,51 @@ h2 {
   align-items: center;
   text-align: center;
   color: #000000;
+}
+.section__nav--space2 {
+  width: 426px;
+  height: 50px;
+  float: left;
+}
+.section__nav--search {
+  box-sizing: border-box;
+  float: left;
+  width: 258px;
+  height: 43px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 7px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 41px;
+  padding-left: 28px;
+  display: flex;
+  align-items: flex-end;
+  color: #A5A5A5;
+}
+.section__nav--space3 {
+  width: 120px;
+  height: 50px;
+  float: left;
+}
+.section__content h1 {
+  width: 1440px;
+  height: 125px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.section__content--line {
+  width: 800px;
+  height: 3px;
+  background: #000000;
 }
