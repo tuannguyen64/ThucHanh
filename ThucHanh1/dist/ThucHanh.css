@@ -1,0 +1,68 @@
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  position: absolute;
+  width: 100vw;
+  height: 18.13vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 116px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #FFFFFF;
+}
+
+.header {
+  background-image: url(tropichouse.jpg);
+}
+.header img {
+  width: 100vw;
+  height: 25.14vw;
+}
+.header h2 {
+  position: absolute;
+  width: 100vw;
+  height: 18.13vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 116px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #FFFFFF;
+}
+
+.section__nav--space1 {
+  width: 8.33%;
+  height: 50px;
+  float: left;
+}
+.section__nav--space2 {
+  width: 55.67%;
+  height: 50px;
+  float: left;
+}
+.section__nav--button {
+  width: 12%;
+  height: 50px;
+  float: left;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}

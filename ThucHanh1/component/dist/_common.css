@@ -1,0 +1,20 @@
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  position: absolute;
+  width: 100vw;
+  height: 18.13vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 116px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #FFFFFF;
+}
