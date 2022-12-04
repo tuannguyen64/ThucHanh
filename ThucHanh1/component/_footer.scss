@@ -1,0 +1,86 @@
+.footer{
+    &__nav{
+        position: absolute;
+        width: 1440px;
+        height: 50px;
+        top: 1218px;
+        
+        background: #ED9747;
+        &--buttons{
+            position: absolute;
+            width: auto;
+            height: 50px;
+            left: 462px;
+            &--button{
+                float: left;
+                width: 172px;
+                height: 50px;
+                
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 34px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                
+                color: #FFFFFF;
+            }
+        }
+    }
+    &__contact{
+        position: absolute;
+        width: 1440px;
+        height: 237px;
+        top: 1268px;
+        
+        background: #515151;
+        &--address{
+            position: absolute;
+            left: 1095px;
+            top: 19px;
+            
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            
+            color: #FFFFFF;
+        }
+        &--button{
+            position: absolute;
+            width: 172px;
+            height: 50px;
+            top: 134px;
+            left: 1063px;
+            
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 34px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            color: #FFFFFF;
+        }
+    }
+    &__copyright{
+        position: absolute;
+        width: 1440px;
+        height: 50px;
+        top: 1505px;
+        
+        background: #A1C96F;
+        &--design{
+            width: 1320px;
+            height: 50px;
+            
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            
+            color: #FFFFFF;
+        }
+    }
+}

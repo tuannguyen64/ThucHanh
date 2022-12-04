@@ -5,26 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./dist/ThucHanh.css">
+    <link rel="stylesheet" href="./dist/ThucHanh1.css">
 </head>
 <body>
     <header class="header">
         <h2 class="header__title">
             ORANGE
         </h2>
-        <img src="tropichouse.jpg" alt="">
+        <img class="header__picture" src="tropichouse.jpg" alt="">
     </header>
     <section class="section">
         <nav class="section__nav">
-            <div class="section__nav--space1"></div>
             <div class="section__nav--button">Home</div>
             <div class="section__nav--button">About</div>
             <div class="section__nav--button">Services</div>
-            <div class="section__nav--space2"></div>
-            <div class="section__nav--search">Search...</div>
-            <div class="section__nav--space3"></div>
         </nav>
+        <div class="section__search">Search...</div>
         <main class="section__content">
+            <div class="section__content--note"></div>
             <h1 style="text-align: center;">
                 Post Title
             </h1>
@@ -41,28 +39,32 @@
                 Quisque ornare tincidunt metus id interdum.
                 Nam nec tortor fringilla, sollicitudin risus id, condimentum odio.
                 Quisque ornare tellus eu mi rhoncus convallis. Quisque et laoreet nulla.
-                <br>
+                <br><br>
                 Read more...
             </div>
         </main>
     </section>
     <footer class="footer">
-        <nav class="footer__nav">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-        </nav>
+        <div class="footer__nav">
+            <nav class="footer__nav--buttons">
+                <div class="footer__nav--buttons--button">Home</div>
+                <div class="footer__nav--buttons--button">About</div>
+                <div class="footer__nav--buttons--button">Services</div>
+            </nav>
+        </div>
         <div class="footer__contact">
-            <div class="footer__contact--one">
+            <div class="footer__contact--address">
                 ORANGE<br>
                 27 RUE PASTEUR<br>
                 14390 CABOURG<br>
                 FRANCE
             </div>
-            <div>Contact</div>
+            <div class="footer__contact--button">Contact</div>
         </div>
         <div class="footer__copyright">
-            Designed by Derek Verbrugge
+            <div class="footer__copyright--design">
+                Designed by Derek Verbrugge
+            </div>
         </div>
     </footer>
 </body>

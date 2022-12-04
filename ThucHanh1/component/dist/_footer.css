@@ -1,0 +1,73 @@
+.footer__nav {
+  position: absolute;
+  width: 1440px;
+  height: 50px;
+  top: 1218px;
+  background: #ED9747;
+}
+.footer__nav--buttons {
+  position: absolute;
+  width: auto;
+  height: 50px;
+  left: 462px;
+}
+.footer__nav--buttons--button {
+  float: left;
+  width: 172px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+.footer__contact {
+  position: absolute;
+  width: 1440px;
+  height: 237px;
+  top: 1268px;
+  background: #515151;
+}
+.footer__contact--address {
+  position: absolute;
+  left: 1095px;
+  top: 19px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.footer__contact--button {
+  position: absolute;
+  width: 172px;
+  height: 50px;
+  top: 134px;
+  left: 1063px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+}
+.footer__copyright {
+  position: absolute;
+  width: 1440px;
+  height: 50px;
+  top: 1505px;
+  background: #A1C96F;
+}
+.footer__copyright--design {
+  width: 1320px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  color: #FFFFFF;
+}

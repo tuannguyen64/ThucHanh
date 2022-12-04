@@ -1,17 +1,15 @@
 .header{
-    img{
+    &__picture{
         width: 1440px;
         height: 362px;
     }
-    
-    background-image: url(tropichouse.jpg);
+
     &__title{
         position: absolute;
         width: 1440px;
         height: 261px;
+        top: 99px;
 
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
         font-weight: 800;
         font-size: 96px;
         line-height: 116px;
